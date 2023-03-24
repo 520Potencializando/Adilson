@@ -12,13 +12,54 @@
     <!-- Título da Página -->
     <title>Novo Spaceman</title>
     <style>
-        .delay{display:none;}
-
+        
         body {
           font-size: 16px;
           background-color: #000;
           min-height: 100%;
         }
+
+        .footer p{
+          font-weight: 100;
+          font-size: 12px;
+          margin: 20px auto;
+          padding: 2px 28px;
+          text-align: center;
+          margin-bottom: 1rem;
+          color: #787878;
+          max-width: 800px;
+          padding-top: 20px;
+        }
+
+        .texto-branco{
+          color: #fff;
+        }
+
+        .texto-branco-div {
+          text-align: center;
+          color: #fff;
+        }
+
+        .line-fb{
+          border: 1px solid #dadada;
+          width: 100%;
+          display: block;
+          margin-bottom: 15px;
+        }
+
+        /* PESSOAS ASSISTINDO */
+        .assistindo{
+          color: white;
+          font-size: 15px;
+          font-weight: 600;
+          padding-top: 10px;
+        }
+
+        .assistindo span{
+          color: #00ff00;
+          font-weight: 800;
+        }
+        /* END PESSOAS ASSISTINDO */
 
         .container{
           padding: 0px!important;
@@ -183,79 +224,20 @@
           box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .6);
         }
 
-        .footer p{
-          font-weight: 100;
-          font-size: 12px;
-          margin: 20px auto;
-          padding: 2px 28px;
-          text-align: center;
-          margin-bottom: 1rem;
-          color: #787878;
-          max-width: 800px;
-          padding-top: 20px;
-        }
-
-        .texto-branco{
-          color: #fff;
-        }
-
-        .texto-branco-div {
-          text-align: center;
-          color: #fff;
-        }
-
-        .line-fb{
-          border: 1px solid #dadada;
-          width: 100%;
-          display: block;
-          margin-bottom: 15px;
-        }
-
-        /* PESSOAS ASSISTINDO */
-        .assistindo{
-          color: white;
-          font-size: 15px;
-          font-weight: 600;
-          padding-top: 10px;
-        }
-
-        .assistindo span{
-          color: #00ff00;
-          font-weight: 800;
-        }
-        /* END PESSOAS ASSISTINDO */
-
-        .d-none{
-          display: none;
-        }
-
-        @media(min-width: 767px;){
-          #hl-top {
-            font-size: 55px;
-          }
-        }
-
     </style>
 
   </head>
   <body>
     <header>
       <div style="text-align: center;" class="container">
-            <img style="width: 100px;margin-top: 10px;" src="spacemace.png">
-            <!-- HL em IMG 
-            <img style="width: 100%; padding-bottom: 10px" src="https://img.imageboss.me/atm/cdn/format:auto/u/XWGORkI2JdhyAFEG7N8ViHlJrxm1/l/sSkbcM6737433.png">
-            -->
+            <img style="width: 100px;margin-top: 10px;" src="spacemace.webp">
 
             <h1 id="hl-top" style="color: white;font-size: 35px;text-align: center;padding-bottom: 20px;font-family: Oswald;">Venha conhecer o <span style="color: #f500ff">Novo Spaceman</span> e aproveite para receber sua recompensa</h1>
         
             <!-- VSL -->
-            <div style="position:relative;padding-top:56.25%;"><iframe id="panda-4c0fbf9b-13ba-4671-8efc-c8febb05f442" src="https://player-vz-f5a58cab-cf3.tv.pandavideo.com.br/embed/?v=4c0fbf9b-13ba-4671-8efc-c8febb05f442" style="border:none;position:absolute;top:0;left:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="100%" height="100%" fetchpriority="high"></iframe></div>
+            <div style="position:relative;padding-top:56.25%;"><iframe id="panda-4c0fbf9b-13ba-4671-8efc-c8febb05f442" src="https://player-vz-f5a58cab-cf3.tv.pandavideo.com.br/embed/?v=4c0fbf9b-13ba-4671-8efc-c8febb05f442" style=" border-radius: 10px; border:none;position:absolute;top:0;left:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="100%" height="100%" fetchpriority="high"></iframe></div>
 
             <div class="assistindo">Você e mais <span id="number"></span> pessoas estão assistindo agora...</div>
-
-            <!-- Ligue o Som 
-            <img class="som" src="https://img.imageboss.me/atm/cdn/format:auto/u/XWGORkI2JdhyAFEG7N8ViHlJrxm1/l/MPBPct5912467.png">
-            -->
 
             <!-- Botão -->
             <div style="text-align: center;" id="cta1" class="mt-4">
@@ -271,7 +253,7 @@
     </header>
 
     <footer style="margin-top: 300px; text-align: center;">
-        <img style="width: 50%;max-width: 200px;" src="logo.avif">
+        <img style="width: 50%;max-width: 200px;" src="logo.webp">
         <div class="disc">
             <p><b>Este site não está afiliado ao Google nem a nenhuma entidade do Google. Uma vez que veio do Google, a responsabilidade não é deles, e sim do nosso site. Fazemos todo o possível para indicar e mostrar claramente todas as provas e usar resultados reais.</b></p>
           </div>
